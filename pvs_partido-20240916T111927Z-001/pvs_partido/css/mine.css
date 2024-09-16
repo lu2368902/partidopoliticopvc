@@ -1,0 +1,130 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f1;
+    /* Cor de fundo verde claro */
+    background-image: url('img/green-background.jpg');
+    /* Imagem de fundo */
+    background-size: cover;
+    /* Faz com que a imagem cubra toda a área */
+    background-position: center;
+    /* Centraliza a imagem de fundo */
+    color: #333;
+    /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para o cabeçalho */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00796b;
+    /* Verde escuro para o cabeçalho */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    /* Largura da logo */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Título do cabeçalho */
+.header-container h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #004d40;
+    /* Verde mais escuro para os botões */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #00332a;
+    /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para a seção de conteúdo */
+.content {
+    background-color: #ffffff;
+    /* Cor de fundo branco para a seção de conteúdo */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #004d40;
+    /* Verde escuro para o título */
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #00796b;
+    /* Cor de fundo verde escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Estilos para garantir que o rodapé fique na parte inferior da página */
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    /* Faz com que o conteúdo ocupe o espaço restante */
+}
